@@ -16,7 +16,7 @@ hitSound = "hit.wav"
 breakSound = "break.wav"
 overSound = "annoying.wav"
 damage = 1
-fire = 0
+fire = 0 #
 bigbonus = 0
 perdu = 0
 
@@ -326,7 +326,7 @@ for string in niveau1:
             Brique(booyah*30+10, random.choice(couleursPossibles))
         else:
             Brique(booyah*30+10, letter)
-    banane = 0
+    banane = 0 #
 
 
 
